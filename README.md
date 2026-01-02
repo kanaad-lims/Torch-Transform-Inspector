@@ -1,5 +1,9 @@
 # Torch Transform Inspect
 
+![GitHub stars](https://img.shields.io/github/stars/kanaad-lims/Torch-Transform-Inspector?style=flat-square)
+![GitHub watchers](https://img.shields.io/github/watchers/kanaad-lims/Torch-Transform-Inspector?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/kanaad-lims/Torch-Transform-Inspector?style=flat-square)
+
 Visualize and debug **torchvision image transforms** step-by-step using matplotlib.
 
 This library helps you *see* exactly how each transform in your augmentation pipeline affects an image — something that is otherwise hard to reason about.
