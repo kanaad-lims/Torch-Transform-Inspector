@@ -11,13 +11,6 @@ This library helps you *see* exactly how each transform in your augmentation pip
 pip install torch-transform-inspect
 ```
 
-### Installation vs Import (Important)
-
-**Install** the package using pip:
-```bash
-pip install torch-transform-inspect
-```
-
 **Import** it in Python using:
 ```python
 from transform_inspector import inspect_transforms, inspect_random
