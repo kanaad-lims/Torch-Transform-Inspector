@@ -1,12 +1,34 @@
-# Torch Transform Inspect
+# Transformation Inspector
 
-![GitHub stars](https://img.shields.io/github/stars/kanaad-lims/Torch-Transform-Inspector?style=flat-square)
-![GitHub watchers](https://img.shields.io/github/watchers/kanaad-lims/Torch-Transform-Inspector?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/kanaad-lims/Torch-Transform-Inspector?style=flat-square)
+
+
+<p align="center">
+  <!-- Core ecosystem -->
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+  <!-- Package distribution -->
+  <img src="https://img.shields.io/pypi/v/torch-transform-inspect?style=for-the-badge" />
+  <img src="https://img.shields.io/pypi/pyversions/torch-transform-inspect?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <!-- Repository stats -->
+  <img src="https://img.shields.io/github/stars/kanaad-lims/Torch-Transform-Inspector?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/kanaad-lims/Torch-Transform-Inspector?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/kanaad-lims/Torch-Transform-Inspector?style=for-the-badge" />
+</p>
+
 
 Visualize and debug **torchvision image transforms** step-by-step using matplotlib.
 
 This library helps you *see* exactly how each transform in your augmentation pipeline affects an image — something that is otherwise hard to reason about.
+
+View the library on [PyPi](https://pypi.org/project/torch-transform-inspect/)
 
 ---
 
