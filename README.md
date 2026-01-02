@@ -64,16 +64,22 @@ When working with computer vision pipelines, it's often unclear:
 from torchvision import transforms
 from transform_inspector import inspect_transforms
 
-transform_pipeline = transforms.Compose([
+transforms_pipeline = transforms.Compose([
     transforms.Resize(256),
-    transforms.RandomResizedCrop(224),
-    transforms.RandomHorizontalFlip(),
-    transforms.ColorJitter(brightness=0.5, contrast=0.5),
+    transforms.RandomResizedCrop(224, scale=(0.3, 0.6), ratio=(0.5, 1.5)),
+    transforms.RandomHorizontalFlip(p=1.0),
+    transforms.ColorJitter(brightness=0.5, contrast=0.5, saturation=0.1, hue=0.4),
+    transforms.RandomRotation(degrees=75),
+    transforms.Grayscale(num_output_channels=3),
     transforms.ToTensor(),
 ])
 
-inspect_transforms("image.jpg", transform_pipeline, cols=3)
+inspect_transforms("image.jpg", transforms_pipeline, cols=3)
 ```
+
+<p align="center">
+<img src="https://github.com/kanaad-lims/Torch-Transform-Inspector/blob/3b8ecfc0a388d752121d99d1a97c01fdc6afef5d/transformed-verstappen.png" alt="Image Transformation Output" width="1000">
+</p>
 
 ### What this does
 
