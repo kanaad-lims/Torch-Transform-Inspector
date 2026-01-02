@@ -1,4 +1,4 @@
-# Transformation Inspector
+# Torch Transform Inspector
 
 
 
@@ -26,7 +26,7 @@
 
 Visualize and debug **torchvision image transforms** step-by-step using matplotlib.
 
-This library helps you *see* exactly how each transform in your augmentation pipeline affects an image — something that is otherwise hard to reason about.
+This library helps you *see* exactly how each transform in your augmentation pipeline affects an image.
 
 View the library on [PyPi](https://pypi.org/project/torch-transform-inspect/)
 
@@ -42,7 +42,7 @@ pip install torch-transform-inspect
 from transform_inspector import inspect_transforms, inspect_random
 ```
 
-> **Note:** The PyPI package name (`torch-transform-inspect`) is different from the Python import name (`transform_inspector`). This is normal because Python module names cannot contain hyphens.
+> **Note:** The PyPI package name (`torch-transform-inspect`) is different from the Python import name (`transform_inspector`).
 
 ---
 
