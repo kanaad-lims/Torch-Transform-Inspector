@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torch-transform-inspect"
+version = "0.1.0"
+description = "Visualize step-by-step effects of torchvision transforms on images."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Kanaad Limaye", email = "your-email@example.com" }
+]
+
+dependencies = [
+    "torch>=1.10",
+    "torchvision>=0.11",
+    "pillow",
+    "matplotlib"
+]
+
+keywords = [
+    "pytorch",
+    "torchvision",
+    "image",
+    "augmentation",
+    "transforms",
+    "visualization",
+    "computer-vision"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Multimedia :: Graphics"
+]
+
+[project.urls]
+Homepage = "https://github.com/kanaad-lims/torch-transform-inspector"
+Repository = "https://github.com/kanaad-lims/torch-transform-inspector"
+Issues = "https://github.com/kanaad-lims/torch-transform-inspector/issues"
