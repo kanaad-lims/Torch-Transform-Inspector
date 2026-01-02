@@ -105,12 +105,17 @@ This applies the full pipeline multiple times and shows different outputs.
 
 ## Features
 
-- ✅ Uses native `torchvision.transforms`
-- ✅ Supports `Compose` and single transforms
-- ✅ Visualizes intermediate steps
-- ✅ Read-only (never modifies data)
-- ✅ Lightweight and simple API
-- ✅ Works in scripts and notebooks
+-  Uses native `torchvision.transforms`
+-  Supports `Compose` and single transforms
+-  Visualizes intermediate steps
+-  Read-only (never modifies data)
+-  Lightweight and simple API
+-  Supported in standalone Python files.
+-  Supported in Jupyter Notebooks including Google Colab
+
+<p align="center">
+<img src="https://github.com/kanaad-lims/Torch-Transform-Inspector/blob/3b8ecfc0a388d752121d99d1a97c01fdc6afef5d/transformed-verstappen.png" alt="Image Transformation Output" width="1000">
+</p>
 
 ---
 
