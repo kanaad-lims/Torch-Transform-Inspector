@@ -30,6 +30,15 @@ This library helps you *see* exactly how each transform in your augmentation pip
 
 View the library on [PyPi](https://pypi.org/project/torch-transform-inspect/)
 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/ded626a5-22f7-4150-a01c-4db5fb057225"
+         width="720"
+         controls
+         muted>
+  </video>
+</p>
+
+
 ---
 
 ## Installation
