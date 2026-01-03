@@ -74,7 +74,7 @@ transforms_pipeline = transforms.Compose([
     transforms.ToTensor(),
 ])
 
-inspect_transforms("image.jpg", transforms_pipeline, cols=3)
+inspect_transforms("path/to/image.jpg", transforms_pipeline, cols=3)
 ```
 
 <p align="center">
@@ -96,7 +96,7 @@ To understand how random augmentations behave:
 ```python
 from transform_inspector import inspect_random
 
-inspect_random("image.jpg", transform_pipeline, n=6, cols=3)
+inspect_random("path/to/image.jpg", transform_pipeline, n=6, cols=3)
 ```
 
 This applies the full pipeline multiple times and shows different outputs.
