@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python 3.8+" />
   <img src="https://img.shields.io/github/license/kanaad-lims/Torch-Transform-Inspector?style=flat-square" alt="License" />
   <img src="https://img.shields.io/pypi/v/torch-transform-inspect?style=flat-square&logo=pypi&logoColor=white&label=PyPI" alt="PyPI Version" />
-  <img src="https://img.shields.io/pypi/pyversions/torch-transform-inspect?style=flat-square&logo=python&label=Python" alt="Python Versions" />
   <img src="https://img.shields.io/github/stars/kanaad-lims/Torch-Transform-Inspector?style=flat-square&logo=github" alt="GitHub Stars" />
   <img src="https://img.shields.io/github/forks/kanaad-lims/Torch-Transform-Inspector?style=flat-square&logo=github" alt="GitHub Forks" />
   <a href="https://deepwiki.com/kanaad-lims/Torch-Transform-Inspector">
