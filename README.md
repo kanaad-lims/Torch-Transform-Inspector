@@ -2,27 +2,23 @@
 
 
 
-<p align="center">
-  <!-- Core ecosystem -->
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <!-- Package distribution -->
-  <img src="https://img.shields.io/pypi/v/torch-transform-inspect?style=for-the-badge" />
-  <img src="https://img.shields.io/pypi/pyversions/torch-transform-inspect?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <!-- Repository stats -->
-  <img src="https://img.shields.io/github/stars/kanaad-lims/Torch-Transform-Inspector?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/kanaad-lims/Torch-Transform-Inspector?style=for-the-badge" />
+<div align="center">
   <a href="https://pepy.tech/projects/torch-transform-inspect">
     <img src="https://static.pepy.tech/personalized-badge/torch-transform-inspect?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" />
   </a>
-</p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python 3.8+" />
+  <img src="https://img.shields.io/github/license/kanaad-lims/Torch-Transform-Inspector?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/pypi/v/torch-transform-inspect?style=flat-square&logo=pypi&logoColor=white&label=PyPI" alt="PyPI Version" />
+  <img src="https://img.shields.io/pypi/pyversions/torch-transform-inspect?style=flat-square&logo=python&label=Python" alt="Python Versions" />
+  <img src="https://img.shields.io/github/stars/kanaad-lims/Torch-Transform-Inspector?style=flat-square&logo=github" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/kanaad-lims/Torch-Transform-Inspector?style=flat-square&logo=github" alt="GitHub Forks" />
+  <a href="https://deepwiki.com/kanaad-lims/Torch-Transform-Inspector">
+    <img src="https://img.shields.io/badge/Docs-DeepWiki-4B32C3?style=flat-square&logo=readthedocs&logoColor=white" alt="DeepWiki Documentation" />
+  </a>
+</div>
+
+---
 
 Visualize and debug **torchvision image transforms** step-by-step using matplotlib.
 
